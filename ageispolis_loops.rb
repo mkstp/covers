@@ -1,10 +1,10 @@
-#aegispolis - Aphex Twin part 2
+#ageispolis - Aphex Twin part 2
 #arr by Marc St. Pierre
 
 use_bpm 102
 key = scale(:es1, :minor, num_octaves: 5)
 
-live_loop :aegis do
+live_loop :ageis do
   use_synth :tri
   with_fx :reverb, room: 0.99999 do
     with_fx :distortion, distort: 0.99 do
@@ -13,7 +13,7 @@ live_loop :aegis do
   end
 end
 
-live_loop :bass, sync: :aegis do
+live_loop :bass, sync: :ageis do
   use_sample_defaults amp: 7
   3.times {sample :bd_boom; sleep 0.75}
   sleep 0.25; sample :bd_boom; sleep 1.5
