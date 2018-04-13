@@ -1,4 +1,4 @@
-#aegisopolis - Aphex Twin part 1
+#aegispolis - Aphex Twin part 1
 # arr by Marc St. Pierre
 
 $notes1 = [18, 17, 16, 17, 18, 14, 14,
