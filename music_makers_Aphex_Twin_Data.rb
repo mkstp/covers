@@ -4,7 +4,7 @@
 
 #===================================== GLOBALS ===================================
 
-$music_makers = "/Users/marcstpierre/Desktop/Code Meanderings/music_makers_2.wav"
+$music_makers = " "
 
 ##| with_fx :reverb, room: 0.999 {sample $music_makers, amp: 8}
 drums_fader = 0.1
